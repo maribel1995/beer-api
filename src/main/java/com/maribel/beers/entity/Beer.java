@@ -1,5 +1,8 @@
 package com.maribel.beers.entity;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Beer {
     private String name;
     private String type;
